@@ -41,11 +41,20 @@ public class ApplicationSearchResultTO extends ApplicationSummaryTO {
     private String serviceList;
     private String serviceStatusList;
     private String parcel;
+    private String section;
     
     public ApplicationSearchResultTO() {
         super();
     }
 
+    public String getSection() {
+        return section;
+    }
+
+    public void setSection(String section) {
+        this.section = section;
+    }
+    
     public String getParcel() {
         return parcel;
     }
