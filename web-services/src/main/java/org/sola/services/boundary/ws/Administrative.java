@@ -562,7 +562,7 @@ public class Administrative extends AbstractWebService {
             public void run() {
                 result[0] = GenericTranslator.toTOList(
                         administrativeEJB.getSysRegSigningList(searchStringTmp, languageCodeTmp),
-                        SysRegPubDisParcelNameTO.class);
+                        SysRegSigningListTO.class);
             }
         });
 
