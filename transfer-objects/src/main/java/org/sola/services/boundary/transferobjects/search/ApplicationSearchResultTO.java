@@ -39,7 +39,6 @@ public class ApplicationSearchResultTO extends ApplicationSummaryTO {
     private String serviceList; 
     private String serviceStatusList;
     private String parcel;
-    private String section;
     
     public ApplicationSearchResultTO(){
         super();
@@ -57,13 +56,6 @@ public class ApplicationSearchResultTO extends ApplicationSummaryTO {
         return agent;
     }
 
-    public String getSection() {
-        return section;
-    }
-
-    public void setSection(String section) {
-        this.section = section;
-    }
     
     public void setAgent(String agent) {
         this.agent = agent;
